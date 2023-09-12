@@ -14,7 +14,7 @@ Pondremos el foco en obtener un código simple, bien diseñado y organizado, efi
 > Se pueden utilizar herramientas como [create-react-app](https://github.com/facebookincubator/create-react-app) y similares para inicializar el proyecto.
 
 ## Prueba técnica
-Usando de referencia los estilos de la marca [Finetwork](https://www.finetwork.com/), deberá crear un pequeño checkout funcional, donde el cliente pueda seleccionar entre 2 promociones diferentes de una misma oferta y acabar la contratación.
+Usando de referencia los estilos de la marca [Finetwork](https://www.finetwork.com/), deberá crear un pequeño flujo de contratación funcional, donde el cliente pueda seleccionar el producto que quiera y ser llevado al checkout, donde deberá elegir entre las promociones disponibles.
 
 Se deberá incluir también `README` con instrucciones de configuración/ejecución y cualquier prueba u otra documentación que haya creado como parte de su solución.
 
@@ -25,10 +25,13 @@ Además, agregue la siguiente información a su archivo `README`:
 - ¿Qué haría de manera diferente si se le asignara más tiempo?
 
 ## Detalles
+Necesitará mostrar un mini catalogo de selección de producto. 
+La api a utilizar sera la siguiente:
 
+    https://gateway.finetwork.com/product/offering/products?page=1&size=20
+    
 Necesitará construir un checkout divido en los siguientes pasos:
 - Sección de oferta seleccionada con información adicional
-    
 - Selección de promoción
 - Insercción de los datos de cliente
 - Sección resumen de pedido
